@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title 
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul
+    li. 
+      My Text
+      Hello
+    input(type='Text')
+    -var condition = true
+    if condition
+       p True
+    -var anyArray = [1,2,3]
+    each value in anyArray
+       p=value
+    block content
